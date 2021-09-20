@@ -83,11 +83,11 @@
 .contato h1 {
     padding: 30px;
     color: rgb(116, 38, 61);
+    text-shadow: 1px 1px 4px rgb(116, 38, 61);
 }
 
 .quem_somos p,
-.servicos p,
-.contato p {
+.servicos p {
     line-height: 25px;
     text-align: justify;
     color: rgb(104, 96, 99);
@@ -101,12 +101,14 @@
     width: 800px;
 }
 
-.perfil h3 {
+.perfil h3,
+.icon-contact h3 {
     color: rgb(116, 38, 61);
     padding: 15px;
 }
 
-.perfil h4 {
+.perfil h4,
+.icon-contact h4 {
     color: rgb(68, 66, 67);
     font-weight: 800;
     margin-bottom: 10px;
@@ -120,6 +122,31 @@
     margin-bottom: 20px;
 }
 
-.servicos {
+.contato  p{
+    line-height: 25px;
+    color: rgb(104, 96, 99);
+    font-size: 15px;
+}
 
+.contato_icons {
+    margin: auto;
+    display: flex;
+    max-width: 800px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.icon-contact {
+    margin-top: 30px;
+    width: 250px;
+    padding: 15px;
+    border: 2px solid rgb(104, 96, 99);
+    border-radius: 7px;
+    box-shadow: 2px 3px 4px rgb(104, 96, 99);
+}
+
+.form_contact {
+background-color: blue;
+max-width: 800px;
 }
