@@ -69,19 +69,25 @@
 }
 
 .quem_somos,
-.equipe {
+.equipe,
+.servicos,
+.contato {
     text-align: center;
     margin-top: 20px;
 
 }
 
 .quem_somos h1,
-.equipe h1 {
+.equipe h1,
+.servicos h1,
+.contato h1 {
     padding: 30px;
     color: rgb(116, 38, 61);
 }
 
-.quem_somos p {
+.quem_somos p,
+.servicos p,
+.contato p {
     line-height: 25px;
     text-align: justify;
     color: rgb(104, 96, 99);
@@ -112,4 +118,8 @@
     color: rgb(104, 96, 99);
     font-size: 15px;
     margin-bottom: 20px;
+}
+
+.servicos {
+
 }
