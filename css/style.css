@@ -147,6 +147,43 @@
 }
 
 .form_contact {
-background-color: blue;
-max-width: 800px;
+   /*  background-color: rgb(116, 38, 61, 0.4);
+    box-shadow: 2px 3px 8px rgb(116, 38, 61); */
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 100px;
+    margin: auto;
+    width: 800px;
+}
+
+.form_contact label {
+    color: rgb(116, 38, 61);
+    font-size: 16px;
+    font-weight: 700;
+}
+.form_contact input {
+    width: 25%;
+    padding: 10px 10px;
+    margin: 8px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(116, 38, 61);
+    
+}
+
+.form_contact textarea {
+    border: none;
+    border-bottom: 2px solid rgb(116, 38, 61);
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.form_contact button {
+    padding: 15px;
+    background-color: rgb(116, 38, 61);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: 600;
 }
