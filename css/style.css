@@ -38,3 +38,78 @@
     padding:10px;
     
 }
+
+.menu a:hover {
+    border-bottom:3px solid white;
+}
+
+/* CSS do Banner */
+
+.banner {
+    min-height: 500px;
+    background: url('../assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.division {
+    width: 600px;
+    height: 2px;
+    background-color: rgb(104, 96, 99);
+    margin:auto;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+/* CSS do Menus */
+
+.menus{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.quem_somos,
+.equipe {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.quem_somos h1,
+.equipe h1 {
+    padding: 30px;
+    color: rgb(116, 38, 61);
+}
+
+.quem_somos p {
+    line-height: 25px;
+    text-align: justify;
+    color: rgb(104, 96, 99);
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+.perfil {
+    margin: auto;
+    padding: 50px;
+    width: 800px;
+}
+
+.perfil h3 {
+    color: rgb(116, 38, 61);
+    padding: 15px;
+}
+
+.perfil h4 {
+    color: rgb(68, 66, 67);
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.perfil p {
+    line-height: 25px;
+    text-align: justify;
+    color: rgb(104, 96, 99);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
